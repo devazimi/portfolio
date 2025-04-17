@@ -1,6 +1,7 @@
-import Header from "../components/Header.tsx";
 import Navbar from "../components/Navbar.tsx";
+import Header from "../components/Header.tsx";
 import SkillSection from "../components/SkillSection.tsx";
+import ProjectsSection from "../components/ProjectsSection.tsx";
 
 import { Container, Divider } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
@@ -29,7 +30,7 @@ const HomePage = () => {
         borderWidth: "0.5px", // Added to make the divider visually thicker
           }}
         />
-        sdfsdf
+        <ProjectsSection />
       </Container>
     </>
   );

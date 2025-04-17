@@ -32,6 +32,7 @@ const SkillSection = () => {
           onClick={() => setActiveSkillsBtn("Expertise")}
           size="small"
           sx={{
+            textTransform: 'none',
             color:
               activeSkillsBtn === "Expertise"
                 ? theme.palette.custom.second
@@ -83,6 +84,7 @@ const SkillSection = () => {
           onClick={() => setActiveSkillsBtn("Software")}
           size="small"
           sx={{
+            textTransform: 'none',
             color:
               activeSkillsBtn === "Software"
                 ? theme.palette.custom.second
@@ -134,6 +136,7 @@ const SkillSection = () => {
           onClick={() => setActiveSkillsBtn("Language")}
           size="small"
           sx={{
+            textTransform: 'none',
             color:
               activeSkillsBtn === "Language"
                 ? theme.palette.custom.second
