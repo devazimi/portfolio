@@ -1,6 +1,8 @@
+import Navbar from "../components/Navbar.tsx"
+
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Navbar />
   )
 }
 
