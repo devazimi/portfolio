@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, IconButton, Typography, Badge } from "@mui/material";
+import { AppBar, Toolbar, IconButton, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import MessageIcon from "@mui/icons-material/Message";
 
@@ -40,10 +40,7 @@ const Navbar = () => {
             Share
           </Typography>
         </IconButton>
-        <IconButton
-          color="inherit"
-          sx={{ mx: 1, fontSize: 18 }}
-        >
+        <IconButton color="inherit" sx={{ mx: 1, fontSize: 18 }}>
           <MessageIcon sx={{ fontSize: 25 }} />
         </IconButton>
       </Toolbar>

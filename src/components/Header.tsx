@@ -34,7 +34,7 @@ const Header = () => {
             <Typography
               variant="body1"
               fontWeight="bold"
-              color={theme.palette.custom.seventh}
+              color={theme.palette.custom.fifth}
               fontSize={19}
               lineHeight={1.8}
             >

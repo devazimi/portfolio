@@ -9,6 +9,7 @@ declare module "@mui/material/styles" {
       forth: string;
       fifth: string;
       sixth: string;
+      seventh: string;
     };
   }
   interface PaletteOptions {
@@ -19,6 +20,7 @@ declare module "@mui/material/styles" {
       forth: string;
       fifth: string;
       sixth: string;
+      seventh: string;
     };
   }
 }
@@ -31,7 +33,8 @@ const theme = createTheme({
       third: "rgb(0, 0, 0)",
       forth: "rgb(208, 208, 208)",
       fifth: "rgb(88, 88, 88)",
-      sixth: 'rgb(11, 100, 208)'
+      sixth: 'rgb(11, 100, 208)',
+      seventh: 'rgb(61, 61, 61)',
     },
   },
   components: {
